@@ -1,0 +1,145 @@
+/* these are my scss variables*/
+/* these are my scss inheritance*/
+.message, .warning, .error {
+  font-size: 20px;
+  border: 1px solid black; }
+
+.warning {
+  color: yellow; }
+
+.error {
+  color: red; }
+
+body {
+  background-color: #0b0be0; }
+
+img {
+  max-width: 100%;
+  margin-top: 0em; }
+
+#conatiner {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  color: aqua; }
+
+header {
+  text-align: center; }
+
+nav {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.25em;
+  font-weight: bold;
+  margin-top: 1.5em;
+  text-align: center; }
+
+nav ul {
+  padding: 0;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em; }
+
+nav li {
+  background-color: black;
+  border-radius: 2em;
+  list-style-type: none;
+  margin: .4em;
+  padding: 0.4em; }
+
+nav li a {
+  color: white;
+  text-decoration: none; }
+
+main {
+  display: block;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 1em;
+  margin-top: 0.5em;
+  padding: 1em;
+  border-radius: 2em 0 2em 0;
+  background-color: #FFFFFF;
+  opacity: 0.75;
+  text-align: center; }
+
+main img {
+  max-width: 200px;
+  border: 3px solid black;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+footer {
+  text-align: center; }
+
+main table {
+  Border: 3px solid black;
+  margin-left: auto;
+  margin-right: auto; }
+
+table tr td {
+  outline: 1px solid black; }
+
+table th {
+  outline: solid black; }
+
+label {
+  display: block; }
+
+form ul {
+  list-style-type: none; }
+
+chkbx {
+  display: inline-block; }
+
+.dark {
+  background-color: red;
+  border: 2px solid black; }
+
+#my-blue-paragraph {
+  color: blue; }
+
+#text {
+  color: #94A8F0; }
+
+/*Desktop media query*/
+@media only screen and (min-width: 830px) {
+  #container {
+    background-color: black; }
+
+  header {
+    text-align: left;
+    height: 1000px;
+    width: 1000px;
+    padding-bottom: 0;
+    margin-bottom: 0; }
+
+  /* nesting */
+  nav {
+    float: right;
+    margin-top: -45em;
+    margin-right: -10em;
+    width: 45%; }
+    nav ul {
+      margin: 0;
+      padding-left: 0.50%;
+      padding-right: 0.50%;
+      border: 1px solid red; }
+    nav li {
+      margin-left: 0;
+      margin-right: 0;
+      padding: 0;
+      width: 20%; }
+    nav a {
+      display: inline-block;
+      padding: 0.2em;
+      text-shadow: 0.2em 0.1em #3D3D35; }
+
+  main {
+    margin-top: -35em;
+    margin-bottom: 7em; }
+
+  .container {
+    border: 7px solid black;
+    border-radius: 20px; } }
+
+/*# sourceMappingURL=styles.css.map */
